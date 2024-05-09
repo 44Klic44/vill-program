@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Эксклюзивный мини-курс с личным наставником</title>
+  </head>
+
+  <body>
+    <a href="#header" class="up-btn">
+      <svg
+        role="presentation"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="50px"
+        height="50px"
+        viewBox="0 0 48 48"
+        enable-background="new 0 0 48 48"
+        xml:space="preserve"
+      >
+        <g>
+          <path
+            style="fill: #dbfb7d"
+            d="M24,3.125c11.511,0,20.875,9.364,20.875,20.875S35.511,44.875,24,44.875S3.125,35.511,3.125,24S12.489,3.125,24,3.125
+M24,0.125C10.814,0.125,0.125,10.814,0.125,24S10.814,47.875,24,47.875S47.875,37.186,47.875,24S37.186,0.125,24,0.125L24,0.125z"
+          ></path>
+        </g>
+        <path
+          style="fill: #dbfb7d"
+          d="M25.5,36.033c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5V16.87l-7.028,7.061c-0.293,0.294-0.678,0.442-1.063,0.442
+c-0.383,0-0.766-0.146-1.058-0.437c-0.587-0.584-0.589-1.534-0.005-2.121l9.591-9.637c0.281-0.283,0.664-0.442,1.063-0.442
+c0,0,0.001,0,0.001,0c0.399,0,0.783,0.16,1.063,0.443l9.562,9.637c0.584,0.588,0.58,1.538-0.008,2.122
+c-0.589,0.583-1.538,0.58-2.121-0.008l-6.994-7.049L25.5,36.033z"
+        ></path>
+      </svg>
+    </a>
+    <header id="header" class="header">
+      <div class="header__top">
+        <div class="container header__top-content">
+          <img src="img/logo.svg" alt="Логотип" />
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#bonus">Бонусы</a></li>
+              <li><a href="#program">Программа курса</a></li>
+              <li><a href="#expert">Об эксперте</a></li>
+            </ul>
+          </nav>
+          <button class="burder-btn">
+            <span></span><span></span><span></span>
+          </button>
+          <div class="mobile-menu">
+            <div class="mobile-menu__overlay"></div>
+            <nav class="mobile-nav">
+              <ul>
+                <li><a href="#bonus">Бонусы</a></li>
+                <li><a href="#program">Программа курса</a></li>
+                <li><a href="#expert">Об эксперте</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__content container">
+        <p>
+          Эксклюзивный мини-курс с личным наставником — графическим дизайнером,
+          который работал с Porshe, ВТБ и X5 Retail
+        </p>
+        <h1>
+          Как новичку обучиться&nbsp;дизайну и&nbsp;начать&nbsp;зарабатывать
+          от&nbsp;100&nbsp;000 ₽/&nbsp;мес на&nbsp;интересных заказах
+        </h1>
+      </div>
+      <div class="header__info-block">
+        <div class="container">
+          <div class="header__info-content">
+            <div>
+              <ul class="page-list">
+                <li>Попробуете себя в дизайне — сделаете первые работы</li>
+                <li>
+                  Разберём страхи, возможные ошибки и выстроим карьерный путь
+                </li>
+                <li>Опытный дизайнер даст рекомендации для развития</li>
+              </ul>
+              <a
+                href="#registration"
+                class="btn-like access-btn access-btn_black"
+                >Получить доступ</a
+              >
+              <div class="btn-like btn-like_black">
+                <span class="line-through">54 900 ₽</span> Бесплатно
+              </div>
+            </div>
+            <div class="header__author-pic">
+              <img src="img/author-img.png" alt="" />
+              <p>Антон Струнге, арт-директор</p>
+            </div>
+            <div>
+              <img src="img/header-decor.png" alt="" />
+              <button class="info-btn">
+                <img src="img/info-ico.svg" alt="" />
+              </button>
+              <div class="btn-like btn-like_black start-date">
+                Стартует 20 мая
+              </div>
+              <div class="btn-like btn-like_black">Осталось 2 места</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Фикс. кнопка  -->
+    <a href="#registration" class="fixed-btn btn-like">Получить доступ</a>
+    <!-- Инфо попап -->
+    <div class="info-popup">
+      <div class="info-popup__overlay"></div>
+      <div class="info-popup__window">
+        <button class="info-popup__close">
+          <img src="img/cross-ico.svg" alt="" />
+        </button>
+        <ul class="page-list">
+          <li>
+            Графический дизайнер, арт-директор — окончил МГХПА им. Строганова
+            и курс Typomania School T24.
+          </li>
+          <li>
+            Работал в Universal University, МХАТе имени Горького и агентстве
+            LabelUP. Сотрудничал с Porsche, Bacardi, ВТБ, Сбер, МИР, РСХБ, X5
+            Retail.
+          </li>
+          <li>Преподаватель Vill. по модулю «Брендинг».</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Бегущая строка  -->
+    <div class="ticker">
+      <div class="ticker__content">
+        <ul class="list-inline">
+          <li class="listitem_mob">Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+        </ul>
+        <ul class="list-inline">
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+        </ul>
+        <ul class="list-inline">
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+        </ul>
+        <ul class="list-inline">
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+        </ul>
+        <ul class="list-inline">
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+          <li>Регистрируйся сейчас и получи бонусы</li>
+        </ul>
+      </div>
+    </div>
+    <section id="bonus" class="gift">
+      <div class="container">
+        <h2 class="section-heading gift__heading">В подарок</h2>
+        <div class="gift__cards-block">
+          <div class="gift__card">
+            <div><img src="img/present-1.png" alt="" /></div>
+            <h4>Гайд по Chat GPT</h4>
+            <p>
+              В этом гайде собрали инструменты и&nbsp;рекомендации, которые
+              помогут облегчить труд графического дизайнера и&nbsp;ускорить вашу
+              работу
+            </p>
+          </div>
+          <div class="gift__card">
+            <div></div>
+            <h4>Библиотека материалов для&nbsp;твоей&nbsp;карьеры</h4>
+            <p>
+              Здесь вас ждут фоны, шейпы, мокапы и&nbsp;другие полезные элементы
+              для создания крутых дизайнов
+            </p>
+          </div>
+          <div class="gift__card">
+            <div></div>
+            <h4>Грант на обучение суммой 40&nbsp;000&nbsp;₽</h4>
+            <p>
+              Это финансовая поддержка от&nbsp;института для перспективных
+              абитуриентов
+            </p>
+          </div>
+          <div class="gift-cond">
+            Только для тех, кто пройдет мини-курс до конца
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="program" class="program">
+      <h2 class="container section-heading program__heading">
+        Программа курса
+      </h2>
+      <hr />
+      <div class="animated-card">
+        <div class="container program__card">
+          <img src="img/bonus-1.png" alt="" />
+          <div>
+            <span>Урок 1</span>
+            <ul class="page-list">
+              <li class="active-item">
+                Стоит ли сейчас становиться графическим дизайнером
+              </li>
+              <li>Введение в Figma</li>
+              <li>Нужно ли дизайнеру иметь талант</li>
+              <li>Полезная практика на прокачку насмотренности</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="animated-card">
+        <div class="container program__card">
+          <img src="img/bonus-2.png" alt="" />
+          <div>
+            <span>Урок 2</span>
+            <ul class="page-list">
+              <li>Какое направление выбрать в дизайне</li>
+              <li>Разбор страхов перед профессией</li>
+              <li class="active-item">
+                Практика «Создание баннера для соцсетей»
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="animated-card">
+        <div class="container program__card">
+          <img src="img/bonus-3.png" alt="" />
+          <div>
+            <span>Урок 3</span>
+            <ul class="page-list">
+              <li>Как прокачивать личный бренд</li>
+              <li>Как находить клиентов и&nbsp;получать дорогие заказы</li>
+              <li class="active-item">
+                Практика «Оформление портфолио на&nbsp;Behance»
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="animated-card">
+        <div class="container program__card">
+          <img src="img/bonus-4.png" alt="" />
+          <div>
+            <span>Урок 4</span>
+            <ul class="page-list">
+              <li class="active-item">
+                Как укрепить свои навыки в&nbsp;дизайне и&nbsp;зарабатывать
+                от&nbsp;100 000 ₽/мес
+              </li>
+              <li>Как выстроить обучение и&nbsp;карьерный путь</li>
+              <li>Бонусы и рекомендации от&nbsp;Антона Струнге</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="container program__cost">
+        <div>
+          <p>Стоимость курса</p>
+          <div class="btn-like btn-like_white">
+            <span class="line-through">54 900 ₽</span> Бесплатно
+          </div>
+          <a href="#registration" class="btn-like access-btn access-btn_green"
+            >Получить доступ</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="need container container__need">
+      <div class="need_desc section-heading">Кому нужно обязательно</div>
+      <div class="need_subdesc section-heading">пройти мини-курс</div>
+
+      <div class="need_cardbody">
+        <div class="need_card div1">
+          <div class="need_cardText">
+            Тем, кто мечтает творить&nbsp;и создавать красивые работы
+          </div>
+          <div class="need_img"><img src="./img/need1.png" alt="" /></div>
+        </div>
+
+        <div class="need_card div2">
+          <div class="need_cardText">
+            Тем, кто хочет работать&nbsp;удаленно и&nbsp;путешествовать
+          </div>
+          <div class="need_img"><img src="./img/need2.png" alt="" /></div>
+        </div>
+
+        <div class="need_card div3">
+          <div class="need_cardText">
+            Тем, у кого есть желание построить крепкую карьеру с&nbsp;высокой
+            зарплатой
+          </div>
+          <div class="need_img"><img src="./img/need3.png" alt="" /></div>
+        </div>
+
+        <div class="need_card div4">
+          <div class="need_cardText">
+            Тем, кто хочет осуществить свою мечту и стать дизайнером
+          </div>
+          <div class="need_img">
+            <img class="imgcard" src="./img/need4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="otziv">
+      <div class="container">
+        <div class="carousel">
+          <div class="carousel-window">
+            <div class="carousel-slides">
+              <div class="carousel-item">
+                <div class="card_fon">
+                  <div class="slider_img">
+                    <img class="skidepk-img" src="./img/pk1.png" alt="" />
+                    <img
+                      class="mobslide_img"
+                      src="./img/1slide_mob.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="slider__hesd">Кристина Травникова</div>
+                    <div class="slider__subdesc">
+                      Курс: «Графический дизайнер»
+                    </div>
+                    <div class="slid__headtext">
+                      «Увидела рекламу в Instagram и долго не&nbsp;решалась
+                      приобрести курс»
+                    </div>
+                    <div class="slide_text">
+                      Через два месяца обучения заметила, что сейчас в процессе
+                      создания&nbsp;самостоятельных проектов у меня наметился
+                      прогресс. Стала&nbsp;применять кисти, ретушь, работаю со
+                      шрифтами. Изменилось видение, общее восприятие. Не думала,
+                      что смогу достичь такой результат настолько быстро
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card_fon">
+                  <div class="slider_img">
+                    <img class="skidepk-img" src="./img/pk2.png" alt="" />
+                    <img
+                      class="mobslide_img"
+                      src="./img/2slide_mob.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="slider__hesd">Олег Зюзин</div>
+                    <div class="slider__subdesc">
+                      Курс: «Графический дизайнер»
+                    </div>
+                    <div class="slid__headtext">
+                      «Опасался неструктурированной информации и недомолвок,
+                      приводящих к&nbsp;потере времени»
+                    </div>
+                    <div class="slide_text">
+                      Даже будучи дизайнером по профессии, я чувствую, что
+                      спектр оказываемых мной услуг сильно расширился.
+                      Понравились все уроки. Было очень полезно понаблюдать за
+                      приемами профи. Весь материал полезный и простой в
+                      усвоении, поэтому учиться не сложно. Честно, все уроки
+                      были важными и ценными.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card_fon">
+                  <div class="slider_img">
+                    <img class="skidepk-img" src="./img/pk3.png" alt="" />
+                    <img
+                      class="mobslide_img"
+                      src="./img/3slide-mob.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="slider__hesd">Дарья Тарантович</div>
+                    <div class="slider__subdesc">
+                      Курс: «Графический дизайнер»
+                    </div>
+                    <div class="slid__headtext">
+                      «Я раньше не слышала о вашем институте. Сейчас страхов
+                      нет»
+                    </div>
+                    <div class="slide_text">
+                      Все преподаватели яркие и интересные: с хорошей подачей
+                      материала. Появилось больше уверенности в себе как в
+                      графическом дизайнере. Основные программы оказались совсем
+                      не такими сложными, как я предполагала. Предела мастерству
+                      не существует, но я уверена, что вы поставили меня на
+                      правильный путь.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card_fon">
+                  <div class="slider_img">
+                    <img class="skidepk-img" src="./img/pk4.png" alt="" />
+                    <img
+                      class="mobslide_img"
+                      src="./img/4slide_mob.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="slider_text">
+                    <div class="slider__hesd">Ахмаджон Ходжаев</div>
+                    <div class="slider__subdesc">
+                      Курс: «Графический дизайнер»
+                    </div>
+                    <div class="slid__headtext">
+                      «Работал упаковщиком и мечтал сменить&nbsp;профессию»
+                    </div>
+                    <div class="slide_text">
+                      Понравились все преподаватели. Видно, что каждый урок был
+                      написан и снят от всего сердца! Я не был знаком с многими
+                      инструментами графического дизайнера, а сейчас могу легко
+                      применить все, что узнал на лекциях. Уже после трех
+                      месяцев обучения чувствую, что могу выйти на рынок и
+                      зарабатывать с помощью профессии.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card_fon mobile_fon">
+                  <div class="slider_img">
+                    <img class="skidepk-img" src="./img/pk5.png" alt="" />
+                    <img
+                      class="mobslide_img"
+                      src="./img/5slide_mob.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="slider_text mob__text">
+                    <div class="slider__hesd">Даниил Дарвишев</div>
+                    <div class="slider__subdesc">
+                      Курс: «Графический дизайнер»
+                    </div>
+                    <div class="slid__headtext">
+                      «По итогам внутреннего конкурса приглашен к сотрудничеству
+                      в ГК Smart»
+                    </div>
+                    <div class="slide_text">
+                      Решил пойти учиться, чтобы получить базу, расширить
+                      инструментарий и освоить новые подходы к работе. Обучение
+                      дало мне все то, что я от него ждал. И даже больше. Я
+                      переосмыслил подход к работе дизайнером, начал
+                      прислушиваться к себе и формировать свой стиль. Я понял,
+                      как нужно отражать себя в работах, экспериментировать и
+                      получать более сложный и глубокий результат.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="carousel-prev">
+            <span class="carousel-prev-icon"
+              ><img src="./img/left.svg" alt=""
+            /></span>
+          </a>
+          <a href="#" class="carousel-next">
+            <span class="carousel-next-icon"
+              ><img src="./img/right.svg" alt=""
+            /></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="expert" class="avtor">
+      <div class="avtor_contain">
+        <div class="avtor_head-mobile">Автор курса</div>
+        <div class="avtor_name-mobile">Антон Струнге</div>
+        <div class="avtor_img">
+          <img class="avtor_image" src="./img/avtor-cursa.png" alt="" />
+        </div>
+        <div class="avtor_text">
+          <div class="avtor_head">Автор курса</div>
+          <div class="avtor_name">Антон Струнге</div>
+          <ul class="avtor-desc blog-item">
+            <li class="avtor_item element-animation">
+              <img class="avtor_itemImg" src="./img/icon-lict.png" alt="" />
+              <p class="avtor__itemtext">
+                Графический дизайнер, арт-директор - окончил МГХПА им.
+                Строганова и курс Typomania School T24.
+              </p>
+            </li>
+            <hr class="line_avtor element-animation" />
+            <li class="avtor_item element-animation">
+              <img class="avtor_itemImg" src="./img/icon-lict.png" alt="" />
+              <p class="avtor__itemtext avtor_mobile">
+                Работал в Universal University, МХАТе имени Горького
+                и&nbsp;агентстве LabelUP. Сотрудничал с Porsche, Bacardi, ВТБ,
+                Сбер, МИР, РСХБ, X5 Retail.
+              </p>
+            </li>
+            <hr class="line_avtor element-animation" />
+            <li class="avtor_item element-animation">
+              <img class="avtor_itemImg" src="./img/icon-lict.png" alt="" />
+              <p class="avtor__itemtext">
+                Преподаватель Vill. по модулю «Брендинг».
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="registration" class="registration">
+      <div class="container">
+        <h2 class="section-heading registration__heading">
+          Регистрируйтесь на&nbsp;мини-курс
+        </h2>
+        <p class="registration__subtext">
+          чтобы начать карьеру в дизайне и&nbsp;получить&nbsp;прямую обратную
+          связь от эксперта
+        </p>
+      </div>
+      <div class="registration__form-block">
+        <img src="img/sticker.png" alt="" class="form-sticker" />
+        <img src="img/cross.svg" alt="" class="form-cross" />
+        <img src="img/star.svg" alt="" class="form-star" />
+        <div class="registration__form-top">
+          <div class="progress-full">
+            <div class="progress-load"></div>
+            <div class="check-point">
+              <span class="circle"></span>
+              <p class="num">01.</p>
+            </div>
+            <div class="check-point">
+              <span class="circle"></span>
+              <p class="num">02.</p>
+            </div>
+            <div class="check-point">
+              <span class="circle"></span>
+              <p class="num">03.</p>
+            </div>
+          </div>
+        </div>
+        <form action="#" class="form">
+          <div class="registration__step-1">
+            <label>Как вас зовут?</label>
+            <input type="text" placeholder="Имя" class="user-name" />
+            <label>Ваш номер телефона</label>
+            <input
+              type="tel"
+              placeholder="Телефон"
+              name="formParams[phone]"
+              class="user-phone"
+            />
+          </div>
+          <div class="registration__step-2">
+            <label>Введите вашу электронную почту</label>
+            <input type="email" placeholder="E-mail" class="user-email" />
+          </div>
+          <button class="form-btn access-btn access-btn_black">Далее</button>
+        </form>
+      </div>
+      <!-- GetCourse form  -->
+      <div class="gc-form">
+        <form
+          id="ltForm3708682"
+          class="lt-normal-form lt-form-inner lt-form text-left"
+          action="https://course.vill-institute.com/pl/lite/block-public/process-html?id=2021727249"
+          method="post"
+          data-open-new-window="0"
+        >
+          <input type="hidden" name="formParams[setted_offer_id]" /><br />
+          <input
+            type="text"
+            maxlength="60"
+            placeholder="Имя"
+            name="formParams[full_name]"
+            value=""
+          /><br />
+          <input
+            type="text"
+            maxlength="60"
+            placeholder="E-mail"
+            name="formParams[email]"
+            value=""
+          /><br />
+          <input
+            type="text"
+            maxlength="60"
+            placeholder="Телефон"
+            name="formParams[phone]"
+            value=""
+          /><br />
+          <button
+            type="submit"
+            id="button2683050"
+            style="
+              color: #ffffff;
+              background-color: #ca59ff;
+              border-radius: 50px !important;
+            "
+            onclick="if(window['btnprs6630d1cb71205']){return false;}window['btnprs6630d1cb71205']=true;setTimeout(function(){window['btnprs6630d1cb71205']=false},6000);return true;"
+          >
+            Записаться</button
+          ><br />
+          <input
+            name="formParams[dealCustomFields][1400251]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[dealCustomFields][1400252]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[dealCustomFields][1400253]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[dealCustomFields][1400254]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[dealCustomFields][1400255]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[dealCustomFields][1400257]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[userCustomFields][1400242]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[userCustomFields][1400243]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[userCustomFields][1400244]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[userCustomFields][1400245]"
+            type="hidden"
+          /><br />
+          <input
+            name="formParams[userCustomFields][1400247]"
+            type="hidden"
+          /><br />
+          <input
+            type="hidden"
+            id="11774316630d1cb65f0f"
+            name="__gc__internal__form__helper"
+            class="__gc__internal__form__helper"
+            value=""
+          />
+          <input
+            type="hidden"
+            id="11774316630d1cb65f0fref"
+            name="__gc__internal__form__helper_ref"
+            class="__gc__internal__form__helper_ref"
+            value=""
+          />
+          <input type="hidden" name="requestTime" value="1714475467" />
+          <input
+            type="hidden"
+            name="requestSimpleSign"
+            value="2e24fc6257109127985977ec0f1a489d"
+          />
+          <input type="hidden" name="isHtmlWidget" value="1" />
+        </form>
+        <span id="gccounterImgContainer"></span>
+        <script>
+          window.addEventListener("load", function () {
+            let loc = document.getElementById("11774316630d1cb65f0f");
+            loc.value = window.location.href;
+            let ref = document.getElementById("11774316630d1cb65f0fref");
+            ref.value = document.referrer;
+
+            let statUrl =
+              "https://course.vill-institute.com/stat/counter?ref=" +
+              encodeURIComponent(document.referrer) +
+              "&loc=" +
+              encodeURIComponent(document.location.href);
+            document.getElementById("gccounterImgContainer").innerHTML =
+              "<img width=1 height=1 style='display:none' id='gccounterImg' src='" +
+              statUrl +
+              "'/>";
+          });
+        </script>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div>
+            <img src="img/logo-white.svg" alt="" />
+            <p class="footer_busines">
+              Business Address: 500 Bayview, Ste 1227, Sunny Isles Beach, FL
+              33160
+            </p>
+          </div>
+
+          <div class="contact_footer">
+            <div>
+              <ul class="footer__list">
+                <li>
+                  <a
+                    class="nav-link"
+                    href="https://course.vill-institute.com/publichnaya-oferta"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Публичная оферта</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://course.vill-institute.com/soglasie-na-obrabotku-pd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Согласие на обработку персональных данных</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://course.vill-institute.com/politika-obrabotki-pd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Политика обработки персональных данных</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://course.vill-institute.com/soglasie-na-poluchenie-reklamy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Согласие на получение информационной и&nbsp;рекламной
+                    рассылки</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://course.vill-institute.com/diskleymer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Дисклеймер</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer_phone">
+              <p class="footer_phoneText">Телефон</p>
+              <a class="footer_number" href="tel:19295636595">19295636595</a>
+              <a
+                href="https://wtsp.cc/17173224492"
+                class="footer__btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="img/wapp.svg" alt="" />
+                <p>Написать нам</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://fs.getcourse.ru/fileservice/file/download/a/2739/sc/167/h/46eb9ff5a150a3060c0b22bb2065d8b3.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        phoneAutoMask('input[name="formParams[phone]"]', {
+          fallbackCountry: "ru",
+          l10n: "ru",
+          intlTelInput: {
+            preferredCountries: ["ru", "us"],
+          },
+        });
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
